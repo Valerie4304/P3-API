@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remixing Data</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #map {
+          height: 90%;
+        }
+        html, body {
+          height: 90%;
+          margin: 0;
+          padding: 0;
+        }
+      </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<!-- <body> -->
+    <h2 id="hello_tag">Hello Chicago!</h2>
+    <h2>Map of Chicago</h2>
+
+    <div id="drawingArea">
+    </div>
+
+    <div id="map"></div>
+    
+
+    <script src="api.js"></script>
+    <script src="launchpad.js"></script>
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTuZ1cbDwdp2Mq9GKXYzAH2ToH2SWgqe8&callback=initMap">
+</script>
+</body>
+</html>
