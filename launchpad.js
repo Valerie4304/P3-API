@@ -281,7 +281,7 @@ function noteOn(note) {
         x4 = x3[0].querySelectorAll("div > div")
         x4[54].style['transform'] = "matrix(20, 38, 3, 65, -72, 0)"
         console.log(x4)
-        colorM(note,103);
+        colorM(note,127);
         colorM(note+29,127);
         colorM(note+30,127);
     }
